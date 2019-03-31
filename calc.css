@@ -104,8 +104,6 @@ div.calcFieldset div.calcField {
     padding: .769em 10px;
     position: relative;
     border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
 }
 div.calcFieldset{
     background-color: #f4f4f4;
@@ -116,22 +114,21 @@ div.calcFieldset{
     padding: .769em 10px 0 10px;
     position: relative;
     border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+
 }
 div.calcFieldset div.calcField label {
     display: inline-block;
     width: 340px;
 }
-div#content div#mainContent div.calcFieldset div.calcField input {
+.content div#mainContent div.calcFieldset div.calcField input {
     color: #666;
-    left: 370px;
+    left: 450px;
     position: absolute;
-    top: .538em;
-    width: 78px;
+    top: 10px;
+    width: 100px;
 }
 div.calcFieldset div.calcField span.desc {
-    left: 358px;
+    left: 435px;
     position: absolute;
     top: .769em;
     width: 20px;
@@ -142,18 +139,20 @@ div#mainContent {
     float: left;
     margin: 0 20px;
     padding: 0;
-    width: 485px;
+    width: 600px;
 }
 input, textarea, select, button {
-    text-rendering: auto;
-    color: initial;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    margin: 0em;
-    font: 400 11px system-ui;
+    font: 400 11px;
+}
+div#mainContent h1{
+    color: black;
+}
+input {
+    background-color: white;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
 }

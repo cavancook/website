@@ -1,10 +1,10 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<?php include_once "header.php" ?>
     <body>
-        <?php include_once "banner.php" ?>
-        <?php include_once "navbar.php" ?>
+        <?php
+            include_once "banner.php";
+            include_once "navbar.php";
+         ?>
         <div class="content">
             <h1>Welcome to Cavan's Budgeting!</h1>
             <div class="home left">

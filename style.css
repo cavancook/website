@@ -80,6 +80,15 @@ body {
 .left {
 	float: left;
 }
+.about .left{
+	float: left;
+}
+.about .right{
+	float: right;
+}
+.about img{
+	padding: 15px;
+}
 .clear {
 	clear: both;
 }

@@ -1,7 +1,5 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<?php include_once "header.php" ?>
     <body>
         <?php include_once "banner.php" ?>
         <?php include_once "navbar.php" ?>

@@ -1,10 +1,10 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <?php include_once "header.php" ?>
     <body>
-        <?php include_once "banner.php" ?>
-        <?php include_once "navbar.php" ?>
+        <?php 
+            include_once "banner.php";
+            include_once "navbar.php"; 
+        ?>
         <div class="content">
             <h1>About the Author</h1>
             <div class="about left">
@@ -16,6 +16,9 @@
                     that Idaho has to offer, from Hunting to River Rafting 
                     I have done it all here. 
                 </p>
+            </div>
+            <div class="about right">
+                <img src=authorPic.jpeg alt="Author Image" width="200px" height="250px">
             </div>
             <div class="clear"></div>
         </div>
