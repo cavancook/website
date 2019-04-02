@@ -8,7 +8,8 @@ session_start();
         <?php include_once "navbar.php" ?>
         <div class="content">
             <h1>The lovely login page</h1>
-            <div class="login left">
+            <div class="loginbox">
+            <div class="login">
                 <h2>Please Login</h2>
 
                 <form method="post" action="handler.php">
@@ -16,6 +17,7 @@ session_start();
                     <div> Password: <input typ="password" name=password></div>
                     <div><input type="submit" value="login"></div>
                 </form>
+            </div>
             </div>
             <div class="clear"></div>
         </div>

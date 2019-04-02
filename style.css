@@ -70,8 +70,24 @@ body {
     width: 40%;
 }
 .login {
-    padding: 15px;
-    width: 40%;
+    background: #e6e6e6;
+    margin: 0 0 .769em 0;
+    padding: .769em 10px;
+    position: relative;
+    border-radius: 3px;
+}
+.loginbox{
+	background-color: #f4f4f4;
+    border: 1px solid #CCC;
+    border-bottom-color: #e6e6e6;
+    border-right-color: #e6e6e6;
+    margin: 1em 0;
+	padding: .769em 10px 0 10px;
+    border-radius: 3px;
+	width: 40%;
+	color: #444444;
+	left: 450px;
+	top: 10px;
 }
 .right {
 	float: right;

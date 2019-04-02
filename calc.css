@@ -121,7 +121,7 @@ div.calcFieldset div.calcField label {
     width: 340px;
 }
 .content div#mainContent div.calcFieldset div.calcField input {
-    color: #666;
+    color: #444444;
     left: 450px;
     position: absolute;
     top: 10px;
@@ -134,7 +134,7 @@ div.calcFieldset div.calcField span.desc {
     width: 20px;
 }
 div#mainContent {
-    color: #666;
+    color: #444444;
     display: inline;
     float: left;
     margin: 0 20px;
