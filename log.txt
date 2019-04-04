@@ -1,0 +1,15 @@
+2019-04-04 0:39:47 - DEBUG --> Getting a connection. 
+2019-04-04 0:39:48 - DEBUG --> Getting a connection. 
+2019-04-04 0:41:04 - DEBUG --> Getting a connection. 
+2019-04-04 0:41:05 - DEBUG --> Getting a connection. 
+2019-04-04 0:41:25 - DEBUG --> Getting a connection. 
+2019-04-04 0:41:34 - DEBUG --> Getting a connection. 
+2019-04-04 0:41:34 - DEBUG --> Getting a connection. 
+2019-04-04 0:42:23 - DEBUG --> Getting a connection. 
+2019-04-04 0:42:23 - DEBUG --> Getting a connection. 
+2019-04-04 0:43:26 - DEBUG --> Getting a connection. 
+2019-04-04 0:43:26 - DEBUG --> Getting a connection. 
+2019-04-04 0:46:58 - DEBUG --> Getting a connection. 
+2019-04-04 0:46:59 - DEBUG --> Getting a connection. 
+2019-04-04 4:19:39 - DEBUG --> Getting a connection. 
+2019-04-04 4:19:39 - DEBUG --> Getting a connection. 
