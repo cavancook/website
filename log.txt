@@ -99,3 +99,6 @@
 2019-04-04 7:45:53 - DEBUG --> Getting a connection. 
 2019-04-04 7:45:54 - DEBUG --> Verifing password. 
 2019-04-04 7:45:54 - DEBUG --> Getting a connection. 
+2019-04-04 8:10:14 - DEBUG --> Getting a connection. 
+2019-04-04 8:10:15 - DEBUG --> Verifing password. 
+2019-04-04 8:10:15 - DEBUG --> Getting a connection. 
