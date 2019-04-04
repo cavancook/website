@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <html>
 <?php include_once "header.php" ?>
     <body>
@@ -8,30 +9,26 @@
         <div class="content">
             <h1>Welcome to Cavan's Budgeting!</h1>
             <div class="home left">
-                <h2>Put something here</h2>
-                <p> Spicy jalapeno bacon ipsum dolor 
-                amet tongue pork belly prosciutto, 
-                cupim bresaola ribeye cow frankfurter 
-                landjaeger jerky sirloin. Short loin 
-                pork picanha buffalo fatback prosciutto 
-                short ribs strip steak filet mignon kielbasa 
-                rump kevin pig. Ribeye turkey t-bone, ham 
-                tongue ball tip drumstick picanha kevin pork 
-                belly fatback. Flank bacon strip steak jerky. 
-                Filet mignon drumstick cupim meatball andouille 
-                ground round beef ribs doner.
+                <h2>The Power of Budgeting</h2>
+                <p> Have you ever been afraid to check 
+                    your bank account after a weekend out 
+                    on the town? Or thought that you had 
+                    more money than you actually did? Sometimes 
+                    it’s shocking how much you can spend without 
+                    even noticing it. It’s extremely powering to 
+                    know where you stand financially at all times. 
+                    This website gives you the power and knowledge 
+                    to track your spending to see yearly spending 
+                    and saving trends. 
                 </p>
             </div>
             <div class="home right">
-                <h2>Put something here</h2>
-                <p> Well, the way they make shows is, they make 
-                    one show. That show's called a pilot. Then 
-                    they show that show to the people who make 
-                    shows, and on the strength of that one show 
-                    they decide if they're going to make more 
-                    shows. Some pilots get picked and become 
-                    television programs. Some don't, become nothing. 
-                    She starred in one of the ones that became nothing. 
+                <h2>Time for some transparency</h2>
+                <p> Having a clear view of your spending habits 
+                    helps you shape the things that are within 
+                    your control. Many bills are absolutely required, 
+                    but tracking monthly expenses is a great way to 
+                    see where your money is flowing, both in and out.  
                 </p>
             </div>
             <div class="clear"></div>

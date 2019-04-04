@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'KLogger.php';
 class Dao {
     private $host = "us-cdbr-iron-east-03.cleardb.net";
@@ -29,7 +30,7 @@ class Dao {
     
         //encripts password
         $stmt->bindValue(':email', $_POST['email']);
-        $salt = "saltcommander123$";
+        $salt = "saltcommander$";
         $hashed = md5($_POST['password'].$salt);
         $stmt->bindValue(':password', $hashed);    
         if($stmt->execute()):
@@ -38,21 +39,12 @@ class Dao {
             return $message= 'Problem creating your account';
         endif;
     }
-    public function getUser(){
-        $this->logger->LogDebug("Getting user.");
-        $conn =$this->getConnection();
-        $records = $conn->prepare('SELECT id,email,password FROM users WHERE id = :id');
-        $records->bindValue(':id', $_SESSION['user_id']);
-        $records->execute();
-        $results = $records->fetch(PDO::FETCH_ASSOC);
-        return $results;
-    }
     public function login(){
           $conn = $this->getConnection();
-          $records= $conn->prepare('SELECT id,email,password FROM users WHERE email = :email');
-          $records->bindValue(':email', $_POST['email']);
-          $records->execute();
-          $results= $records->fetch(PDO::FETCH_ASSOC);
+          $data= $conn->prepare('SELECT user_id,email,password FROM users WHERE email = :email');
+          $data->bindValue(':email', $_POST['email']);
+          $data->execute();
+          $results= $data->fetch(PDO::FETCH_ASSOC);
           return $results;
     }
     public function userExists($email){
@@ -69,10 +61,10 @@ class Dao {
     public function verifyPassword($email, $pass){
         $this->logger->LogDebug("Verifing password.");
         $conn =$this->getConnection();
-        $records = $conn->prepare('SELECT password FROM users WHERE email = :email');
-        $records->bindValue(':email', $email);
-        $records->execute();
-        $results = $records->fetch(PDO::FETCH_ASSOC);
+        $data = $conn->prepare('SELECT password FROM users WHERE email = :email');
+        $data->bindValue(':email', $email);
+        $data->execute();
+        $results = $data->fetch(PDO::FETCH_ASSOC);
         if(md5($pass) == $results['password']){
             return true;
         }else{

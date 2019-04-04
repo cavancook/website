@@ -1,4 +1,4 @@
-<html>
+<?php session_start() ?><html>
 <?php include_once "header.php" ?>
     <body>
         <?php include_once "banner.php" ?>
@@ -11,7 +11,8 @@
                 <li>If any questions please contact website admin(me).</li>
             </ul>
             </div>
-            <div>Icons made by 
+            <div>
+                <h3>Icons made by</h3> 
                 <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from 
                 <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by 
                 <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>

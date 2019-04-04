@@ -2,7 +2,7 @@
 session_start();
 require_once 'Dao.php';
 $dao = new Dao();
-if(isset($_SESSION['user_id'])){
+if(!isset($_SESSION['user_id'])){
     header("Location: login.php");
 }
 ?>
@@ -16,24 +16,24 @@ if(isset($_SESSION['user_id'])){
       <div class="content">
          <div id="mainContent">
             <h1>Yearly Totals</h1>
-        <form action="calc-handler.php" method="POST">
+       
             <div id="budgetCalculator">
                <h2></h2>
                <div class="calcFieldset">
                   <div class="calcField">
                      <label>Yearly Rent Costs:</label>
                      <span class="desc">$</span>
-                     <input type="number" id="rent" value="<?php echo $rent ?>" disabled>
+                     <input type="number" id="yearlyRent" value="<?php echo $_SESSION['yearlyRent'] ?>" disabled>
                   </div>
                   <div class="calcField">
                      <label>Yearly Utilities Costs:</label>
                      <span class="desc">$</span>
-                     <input type="number" id="util" value="" disabled>
+                     <input type="number" id="yearlyUtil" value="" disabled>
                   </div>
                   <div class="calcField">
                      <label>Yearly Food Costs:</label>
                      <span class="desc">$</span>
-                     <input type="number" id="food" value="" disabled>
+                     <input type="number" id="yearlyFood" value="" disabled>
                   </div>
                   <div class="calcField">
                      <label>Yearly Car Insurance/Maintence Costs:</label>
@@ -62,7 +62,7 @@ if(isset($_SESSION['user_id'])){
                   </div>
                </div>
             </div>
-             </form>
+            
          </div>
          <div class="clear"></div>
       </div>

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html>
     <?php include_once "header.php" ?>
     <body>
@@ -10,11 +13,13 @@
             <div class="about left">
                 <h2>About Me</h2>
                 <p> My name is Cavan Cook I am a senior at Boise State
-                    University studing Computer Science. I work for Sysco
-                    Foods to help pay for all the schooling.
-                    I was born and raised in Meridian, Idaho. Enjoying all
-                    that Idaho has to offer, from Hunting to River Rafting 
-                    I have done it all here. 
+                    University studying Computer Science. I work for Sysco
+                    Foods to help pay for all the schooling and loans, let's be honest.
+                    I was born and raised in Meridian, Idaho and have loved every moment 
+                    spent in this beautiful state. When my face isn't glued to my computer
+                    completing projects I enjoy spending time outside, doing everything 
+                    from white water rafting to skating on the Greenbelt. Enjoying all
+                    that Idaho has to offer, I have done it all. 
                 </p>
             </div>
             <div class="about right">

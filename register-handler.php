@@ -32,7 +32,7 @@ $dao = new Dao();
     $messages[]= "Incorrect Email Format.";
     $messages[] = "Please use 123#$abc@123#$abc.com";
     $valid = false;
-    $_SESSION['regmessages'] = $messages;
+    $_SESSION['registrationMessages'] = $messages;
     header("Location: login.php");
     exit;
   }
@@ -41,11 +41,11 @@ $dao = new Dao();
       $valid = false;
   }
   if ($valid == false) {
-    $_SESSION['regmessages'] = $messages;
+    $_SESSION['registrationMessages'] = $messages;
     header("Location: login.php");
     exit;
   }
-    $regmessage = $dao->createUser();
-    $_SESSION['reg_con_message'] = $regmessage;
-    header("Location: login.php");
+    $registrationMessage = $dao->createUser();
+    $_SESSION['reg_con_message'] = $registrationMessage;
+    header("Location: calc.php");
 exit;

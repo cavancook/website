@@ -2,7 +2,7 @@
 session_start();
 require_once 'Dao.php';
 if(isset($_SESSION['user_id'])){
-  header("Location: home.php");
+  header("Location: calc.php");
 }
 $dao = new Dao();
   /* Creates salt and sets session variables */
@@ -14,7 +14,7 @@ $dao = new Dao();
   $messages = array();
   $valid = true;
   if (empty($email)) {
-    $messages[] = "Please enter in an E-mail";
+    $messages[] = "Please enter your E-mail";
     $valid = false;
   }
   if (empty($password)) {
@@ -29,8 +29,8 @@ $dao = new Dao();
     $results = $dao->login();
 
   if(count($results) > 0 && $dao->verifyPassword($email, $password)){
-    $_SESSION['user_id'] = $results['id'];
-    header("Location: home.php");
+    $_SESSION['user_id'] = $results['user_id'];
+    header("Location: calc.php");
   }else if(empty($results)){
     $messages[] = "Email Not Found";
     $_SESSION['messages'] = $messages;

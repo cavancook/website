@@ -22,4 +22,12 @@ $_SESSION['saving-val'] = $_POST["saving"];
 $_SESSION['invest-val'] = $_POST["invest"];
 $_SESSION['retire-val'] = $_POST["retire"];
 
+$yearlyRent = $_SESSION['rent-val'] * 12;
+$yearlyUtil = $_SESSION['util-val'] * 12;
+$yearlyFood = $_SESSION['food-val'] * 12;
+$yearlyCarIns = $_SESSION['carIns-val'] * 12;
+$yearlyFuel = $_SESSION['fuel-val'] * 12;
+
+$_SESSION['yearlyRent'] = $yearlyRent;
+
 header("Location: total.php");

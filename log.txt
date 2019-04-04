@@ -13,3 +13,89 @@
 2019-04-04 0:46:59 - DEBUG --> Getting a connection. 
 2019-04-04 4:19:39 - DEBUG --> Getting a connection. 
 2019-04-04 4:19:39 - DEBUG --> Getting a connection. 
+2019-04-04 6:18:18 - DEBUG --> Getting a connection. 
+2019-04-04 6:18:19 - DEBUG --> Verifing password. 
+2019-04-04 6:18:19 - DEBUG --> Getting a connection. 
+2019-04-04 6:20:51 - DEBUG --> Getting a connection. 
+2019-04-04 6:20:52 - DEBUG --> Verifing password. 
+2019-04-04 6:20:52 - DEBUG --> Getting a connection. 
+2019-04-04 6:21:03 - DEBUG --> Checking if user exists. 
+2019-04-04 6:21:18 - DEBUG --> Checking if user exists. 
+2019-04-04 6:21:18 - DEBUG --> Creating user. 
+2019-04-04 6:21:18 - DEBUG --> Getting a connection. 
+2019-04-04 6:21:32 - DEBUG --> Getting a connection. 
+2019-04-04 6:21:33 - DEBUG --> Verifing password. 
+2019-04-04 6:21:33 - DEBUG --> Getting a connection. 
+2019-04-04 6:21:38 - DEBUG --> Getting a connection. 
+2019-04-04 6:21:38 - DEBUG --> Verifing password. 
+2019-04-04 6:21:38 - DEBUG --> Getting a connection. 
+2019-04-04 6:21:55 - DEBUG --> Checking if user exists. 
+2019-04-04 6:25:10 - DEBUG --> Checking if user exists. 
+2019-04-04 6:25:12 - DEBUG --> Creating user. 
+2019-04-04 6:25:12 - DEBUG --> Getting a connection. 
+2019-04-04 6:25:29 - DEBUG --> Getting a connection. 
+2019-04-04 6:25:30 - DEBUG --> Verifing password. 
+2019-04-04 6:25:30 - DEBUG --> Getting a connection. 
+2019-04-04 6:28:57 - DEBUG --> Getting a connection. 
+2019-04-04 6:28:57 - DEBUG --> Verifing password. 
+2019-04-04 6:28:57 - DEBUG --> Getting a connection. 
+2019-04-04 6:30:29 - DEBUG --> Getting a connection. 
+2019-04-04 6:30:30 - DEBUG --> Verifing password. 
+2019-04-04 6:30:30 - DEBUG --> Getting a connection. 
+2019-04-04 6:30:32 - DEBUG --> Getting a connection. 
+2019-04-04 6:30:32 - DEBUG --> Verifing password. 
+2019-04-04 6:30:32 - DEBUG --> Getting a connection. 
+2019-04-04 6:30:47 - DEBUG --> Checking if user exists. 
+2019-04-04 6:30:48 - DEBUG --> Creating user. 
+2019-04-04 6:30:48 - DEBUG --> Getting a connection. 
+2019-04-04 6:34:37 - DEBUG --> Getting a connection. 
+2019-04-04 6:34:37 - DEBUG --> Verifing password. 
+2019-04-04 6:34:37 - DEBUG --> Getting a connection. 
+2019-04-04 6:34:45 - DEBUG --> Getting a connection. 
+2019-04-04 6:34:46 - DEBUG --> Verifing password. 
+2019-04-04 6:34:46 - DEBUG --> Getting a connection. 
+2019-04-04 6:36:59 - DEBUG --> Getting a connection. 
+2019-04-04 6:36:59 - DEBUG --> Verifing password. 
+2019-04-04 6:36:59 - DEBUG --> Getting a connection. 
+2019-04-04 6:44:23 - DEBUG --> Getting a connection. 
+2019-04-04 6:44:23 - DEBUG --> Verifing password. 
+2019-04-04 6:44:23 - DEBUG --> Getting a connection. 
+2019-04-04 6:44:29 - DEBUG --> Getting a connection. 
+2019-04-04 6:44:30 - DEBUG --> Verifing password. 
+2019-04-04 6:44:30 - DEBUG --> Getting a connection. 
+2019-04-04 6:51:47 - DEBUG --> Getting a connection. 
+2019-04-04 6:51:48 - DEBUG --> Verifing password. 
+2019-04-04 6:51:48 - DEBUG --> Getting a connection. 
+2019-04-04 6:53:50 - DEBUG --> Getting a connection. 
+2019-04-04 6:53:51 - DEBUG --> Verifing password. 
+2019-04-04 6:53:51 - DEBUG --> Getting a connection. 
+2019-04-04 7:03:32 - DEBUG --> Getting a connection. 
+2019-04-04 7:03:32 - DEBUG --> Verifing password. 
+2019-04-04 7:03:32 - DEBUG --> Getting a connection. 
+2019-04-04 7:07:59 - DEBUG --> Getting a connection. 
+2019-04-04 7:07:59 - DEBUG --> Verifing password. 
+2019-04-04 7:07:59 - DEBUG --> Getting a connection. 
+2019-04-04 7:13:23 - DEBUG --> Getting a connection. 
+2019-04-04 7:13:23 - DEBUG --> Verifing password. 
+2019-04-04 7:13:23 - DEBUG --> Getting a connection. 
+2019-04-04 7:17:41 - DEBUG --> Getting a connection. 
+2019-04-04 7:17:43 - DEBUG --> Verifing password. 
+2019-04-04 7:17:43 - DEBUG --> Getting a connection. 
+2019-04-04 7:34:35 - DEBUG --> Getting a connection. 
+2019-04-04 7:34:35 - DEBUG --> Verifing password. 
+2019-04-04 7:34:35 - DEBUG --> Getting a connection. 
+2019-04-04 7:41:09 - DEBUG --> Checking if user exists. 
+2019-04-04 7:41:09 - DEBUG --> Creating user. 
+2019-04-04 7:41:09 - DEBUG --> Getting a connection. 
+2019-04-04 7:41:26 - DEBUG --> Getting a connection. 
+2019-04-04 7:41:26 - DEBUG --> Verifing password. 
+2019-04-04 7:41:26 - DEBUG --> Getting a connection. 
+2019-04-04 7:43:07 - DEBUG --> Getting a connection. 
+2019-04-04 7:43:08 - DEBUG --> Verifing password. 
+2019-04-04 7:43:08 - DEBUG --> Getting a connection. 
+2019-04-04 7:44:11 - DEBUG --> Getting a connection. 
+2019-04-04 7:44:11 - DEBUG --> Verifing password. 
+2019-04-04 7:44:11 - DEBUG --> Getting a connection. 
+2019-04-04 7:45:53 - DEBUG --> Getting a connection. 
+2019-04-04 7:45:54 - DEBUG --> Verifing password. 
+2019-04-04 7:45:54 - DEBUG --> Getting a connection. 

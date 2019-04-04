@@ -18,22 +18,22 @@
                <h3>Need to make an account?</h3>
                <?php
                   /* This shows either the confirmation messages or error messages for the register portion*/
-                    if(isset($_SESSION['reg_con_message'])){
-                      $confirm = $_SESSION['reg_con_message'];
-                      echo "<div class='reg_con_message'>$confirm</div>";
+                    if(isset($_SESSION['registration_condition_message'])){
+                      $confirm = $_SESSION['registration_condition_message'];
+                      echo "<div class='registration_condition_message'>$confirm</div>";
                     }
-                    if (isset($_SESSION['regmessages'])) {
+                    if (isset($_SESSION['registrationMessages'])) {
                       $var2 = 5;
-                        foreach($_SESSION['regmessages'] as $regmessage) {
-                          echo "<div id='$var2' class='regmessage'>$regmessage</div>";
+                        foreach($_SESSION['registrationMessages'] as $registrationMessages) {
+                          echo "<div id='$var2' class='registrationMessages'>$registrationMessages</div>";
                         $var2++;
                         }
                     }?>
                <h5>Please Register</h5>
                <?php
                   /* Makes sure that the messages are unset for when the page is refreshed*/
-                    unset($_SESSION['regmessages']);
-                    unset($_SESSION['reg_con_message']);?>
+                    unset($_SESSION['registrationMessages']);
+                    unset($_SESSION['registration_condition_message']);?>
                <form action="register-handler.php" method="POST">
                   <input type="text" placeholder="Email" name="email">
                   <input type="password" placeholder="Password" name="password">

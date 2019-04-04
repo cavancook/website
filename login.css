@@ -57,7 +57,7 @@ input[type="submit"]:hover{
     height: 400px;
 }
 
-.message, .regmessage{
+.message, .registrationMessages{
     padding: 5px;
     background-color: red;
     color:white;
