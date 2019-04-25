@@ -102,3 +102,9 @@
 2019-04-04 8:10:14 - DEBUG --> Getting a connection. 
 2019-04-04 8:10:15 - DEBUG --> Verifing password. 
 2019-04-04 8:10:15 - DEBUG --> Getting a connection. 
+2019-04-24 23:13:56 - DEBUG --> Getting a connection. 
+2019-04-24 23:13:56 - DEBUG --> Verifing password. 
+2019-04-24 23:13:56 - DEBUG --> Getting a connection. 
+2019-04-24 23:18:59 - DEBUG --> Getting a connection. 
+2019-04-24 23:19:00 - DEBUG --> Verifing password. 
+2019-04-24 23:19:00 - DEBUG --> Getting a connection. 

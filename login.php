@@ -25,7 +25,7 @@
                     if (isset($_SESSION['registrationMessages'])) {
                       $var2 = 5;
                         foreach($_SESSION['registrationMessages'] as $registrationMessages) {
-                          echo "<div id='$var2' class='registrationMessages'>$registrationMessages</div>";
+                          echo "<div id='$var2' class='registrationMessages'>$registrationMessages <span class='exit-button'><i class='fas fa-trash'></i></span></div>";
                         $var2++;
                         }
                     }?>
@@ -48,7 +48,7 @@
                   if (isset($_SESSION['messages'])) {
                       $var1 = 1;
                       foreach($_SESSION['messages'] as $message) {
-                        echo "<div id='$var1' class='message'>$message </div>";
+                        echo "<div id='$var1' class='message'>$message <span class='exit-button'><i class='fas fa-trash'></i></span></div>";
                         $var1++;
                       }
                   }?>
