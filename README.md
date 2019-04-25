@@ -1,4 +1,4 @@
-# HW 6: Making it work
+# HW 7: Adding Features
 
 * Author: Cavan Cook
 * Class: CS401 Web Dev
@@ -6,7 +6,7 @@
 
 ## Overview
 
-The goal of this homework was to make my site functional and meet all the requirements.
+The goal of this homework was to add features to my site and meet all the requirements.
 
 ## Discussion
 
@@ -19,5 +19,11 @@ Used w3 schools like I needed it to breathe
 Used font awesome for all my symbols, for prettyness sake
 [https://fontawesome.com](https://fontawesome.com)
 
-I used another budgeting app as a jumping off point which helped in getting structure down
-[http://www.youcandealwithit.com](http://www.youcandealwithit.com)
+I used this for help understanding events in javascript
+[https://www.tutorialspoint.com/javascript/javascript_events.htm](https://www.tutorialspoint.com/javascript/javascript_events.htm)
+
+I used this for help understanding events in javascript
+[https://www.w3schools.com/js/js_events.asp](https://www.w3schools.com/js/js_events.asp)
+
+I used this for help understanding how to have something fade out using javascript
+[https://www.w3schools.com/jquery/eff_fadeout.asp](https://www.w3schools.com/jquery/eff_fadeout.asp)

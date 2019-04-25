@@ -25,6 +25,10 @@ body {
 	background-color: #ddd;
 	color: black;
 }
+.topnav a.active {
+	background-color: #ddd;
+	color: black;
+}
 .topnav a.highlight {
 	background-color: #ddd;
 	color: black;
